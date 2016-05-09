@@ -10,7 +10,10 @@
     <ownedAttribute xmi:type="uml:Property" xmi:id="_sbmvkBYGEeacU8-DiMBlaQ" name="id" visibility="private">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#ELong"/>
     </ownedAttribute>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_SwbnURYFEeacU8-DiMBlaQ" name="role" visibility="private" type="_GtEYkBYEEeacU8-DiMBlaQ" isUnique="false" association="_SwbAQBYFEeacU8-DiMBlaQ"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_SwbnURYFEeacU8-DiMBlaQ" name="role" visibility="private" type="_GtEYkBYEEeacU8-DiMBlaQ" isUnique="false" association="_SwbAQBYFEeacU8-DiMBlaQ">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_8f6oQBYoEeacU8-DiMBlaQ" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_8gAu4BYoEeacU8-DiMBlaQ" value="1"/>
+    </ownedAttribute>
     <ownedAttribute xmi:type="uml:Property" xmi:id="_pqnuUBYJEeacU8-DiMBlaQ" name="name" visibility="private">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EString"/>
     </ownedAttribute>
@@ -23,7 +26,10 @@
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_OLxLgBYUEeacU8-DiMBlaQ" name="UserStock">
     <ownedAttribute xmi:type="uml:Property" xmi:id="_XexA4xYUEeacU8-DiMBlaQ" name="user" visibility="private" type="_thcdoBYDEeacU8-DiMBlaQ" association="_XexA4BYUEeacU8-DiMBlaQ"/>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_YX_u8xYUEeacU8-DiMBlaQ" name="stock" visibility="private" type="_KEckEBYEEeacU8-DiMBlaQ" association="_YX_u8BYUEeacU8-DiMBlaQ"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_YX_u8xYUEeacU8-DiMBlaQ" name="stock" visibility="private" type="_KEckEBYEEeacU8-DiMBlaQ" association="_YX_u8BYUEeacU8-DiMBlaQ">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_w6HCwBYoEeacU8-DiMBlaQ" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_w6KGEBYoEeacU8-DiMBlaQ" value="1"/>
+    </ownedAttribute>
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_GtEYkBYEEeacU8-DiMBlaQ" name="Role">
     <ownedAttribute xmi:type="uml:Property" xmi:id="_rFUcoBYHEeacU8-DiMBlaQ" name="id" visibility="private">
@@ -61,6 +67,9 @@
     <generalization xmi:type="uml:Generalization" xmi:id="_e6L1IBYKEeacU8-DiMBlaQ" general="_77sOwBYFEeacU8-DiMBlaQ"/>
     <ownedAttribute xmi:type="uml:Property" xmi:id="__yz4AhYKEeacU8-DiMBlaQ" name="productModel" visibility="private" type="_Itq-YBYEEeacU8-DiMBlaQ" association="__yzQ8BYKEeacU8-DiMBlaQ"/>
     <ownedAttribute xmi:type="uml:Property" xmi:id="_gLtDMBYREeacU8-DiMBlaQ" name="size" visibility="private" type="_g85igBYEEeacU8-DiMBlaQ" isUnique="false"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_G8IoIBYsEeacU8-DiMBlaQ" name="variation" visibility="private" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EString"/>
+    </ownedAttribute>
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_GPhg8BYEEeacU8-DiMBlaQ" name="Material">
     <generalization xmi:type="uml:Generalization" xmi:id="_iy2v0BYKEeacU8-DiMBlaQ" general="_77sOwBYFEeacU8-DiMBlaQ"/>
@@ -81,6 +90,12 @@
     <ownedAttribute xmi:type="uml:Property" xmi:id="_mjL3whYTEeacU8-DiMBlaQ" name="material" visibility="private" type="_GPhg8BYEEeacU8-DiMBlaQ" association="_mjLQsBYTEeacU8-DiMBlaQ"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_Itq-YBYEEeacU8-DiMBlaQ" name="ProductModel">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_DjX8kBYsEeacU8-DiMBlaQ" name="id" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#ELong"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_DjZxwBYsEeacU8-DiMBlaQ" name="name" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EString"/>
+    </ownedAttribute>
     <ownedAttribute xmi:type="uml:Property" xmi:id="_Q2kJYhYKEeacU8-DiMBlaQ" name="productSubCategory" visibility="private" type="_HbtAMBYEEeacU8-DiMBlaQ" association="_Q2iUMBYKEeacU8-DiMBlaQ"/>
     <ownedAttribute xmi:type="uml:Property" xmi:id="_TJr7MBYNEeacU8-DiMBlaQ" name="description" visibility="private" isUnique="false">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EString"/>
@@ -121,7 +136,7 @@
     <ownedAttribute xmi:type="uml:Property" xmi:id="_4AdEEBYMEeacU8-DiMBlaQ" name="name" visibility="private">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EString"/>
     </ownedAttribute>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_TEgnoBYKEeacU8-DiMBlaQ" name="productsupercategory" visibility="private" type="_JvoxsBYEEeacU8-DiMBlaQ" association="_TEfZgBYKEeacU8-DiMBlaQ"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_TEgnoBYKEeacU8-DiMBlaQ" name="productSuperCategory" visibility="private" type="_JvoxsBYEEeacU8-DiMBlaQ" association="_TEfZgBYKEeacU8-DiMBlaQ"/>
     <ownedAttribute xmi:type="uml:Property" xmi:id="_UA_WoBYNEeacU8-DiMBlaQ" name="description" visibility="private" isUnique="false">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EString"/>
     </ownedAttribute>
@@ -187,13 +202,17 @@
   <packagedElement xmi:type="uml:Enumeration" xmi:id="_5DhVgBYKEeacU8-DiMBlaQ" name="StockType">
     <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_Eh8R4BYREeacU8-DiMBlaQ" name="RETAIL"/>
     <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_FqIpABYREeacU8-DiMBlaQ" name="ONLINE_RETAIL"/>
-    <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_QcEhkBYREeacU8-DiMBlaQ" name="PRODUCTION"/>
+    <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_QcEhkBYREeacU8-DiMBlaQ" name="WHOLESALE"/>
+    <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_pZuTIBYrEeacU8-DiMBlaQ" name="RAW_MATERIAL"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Association" xmi:id="_SwbAQBYFEeacU8-DiMBlaQ" memberEnd="_SwbnURYFEeacU8-DiMBlaQ _SwdcgBYFEeacU8-DiMBlaQ">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_SwbAQRYFEeacU8-DiMBlaQ" source="org.eclipse.papyrus">
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_SwbnUBYFEeacU8-DiMBlaQ" key="nature" value="UML_Nature"/>
     </eAnnotations>
-    <ownedEnd xmi:type="uml:Property" xmi:id="_SwdcgBYFEeacU8-DiMBlaQ" name="user" type="_thcdoBYDEeacU8-DiMBlaQ" association="_SwbAQBYFEeacU8-DiMBlaQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_SwdcgBYFEeacU8-DiMBlaQ" name="user" type="_thcdoBYDEeacU8-DiMBlaQ" association="_SwbAQBYFEeacU8-DiMBlaQ">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="__Kv20BYoEeacU8-DiMBlaQ"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="__Ky6IBYoEeacU8-DiMBlaQ" value="*"/>
+    </ownedEnd>
   </packagedElement>
   <packagedElement xmi:type="uml:Association" xmi:id="_Wx01oBYEEeacU8-DiMBlaQ" memberEnd="_WyWaEBYEEeacU8-DiMBlaQ _WyXBIBYEEeacU8-DiMBlaQ">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Wx2q0BYEEeacU8-DiMBlaQ" source="org.eclipse.papyrus">
@@ -205,60 +224,90 @@
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Q2kJYBYKEeacU8-DiMBlaQ" source="org.eclipse.papyrus">
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Q2kJYRYKEeacU8-DiMBlaQ" key="nature" value="UML_Nature"/>
     </eAnnotations>
-    <ownedEnd xmi:type="uml:Property" xmi:id="_Q2kwcBYKEeacU8-DiMBlaQ" name="productmodel" type="_Itq-YBYEEeacU8-DiMBlaQ" association="_Q2iUMBYKEeacU8-DiMBlaQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Q2kwcBYKEeacU8-DiMBlaQ" name="productmodel" type="_Itq-YBYEEeacU8-DiMBlaQ" association="_Q2iUMBYKEeacU8-DiMBlaQ">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_l9hHcBYqEeacU8-DiMBlaQ"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_l9kKwBYqEeacU8-DiMBlaQ" value="*"/>
+    </ownedEnd>
   </packagedElement>
   <packagedElement xmi:type="uml:Association" xmi:id="_TEfZgBYKEeacU8-DiMBlaQ" memberEnd="_TEgnoBYKEeacU8-DiMBlaQ _TEhOsBYKEeacU8-DiMBlaQ">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_TEgAkBYKEeacU8-DiMBlaQ" source="org.eclipse.papyrus">
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_TEgAkRYKEeacU8-DiMBlaQ" key="nature" value="UML_Nature"/>
     </eAnnotations>
-    <ownedEnd xmi:type="uml:Property" xmi:id="_TEhOsBYKEeacU8-DiMBlaQ" name="productsubcategory" type="_HbtAMBYEEeacU8-DiMBlaQ" association="_TEfZgBYKEeacU8-DiMBlaQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_TEhOsBYKEeacU8-DiMBlaQ" name="productsubcategory" type="_HbtAMBYEEeacU8-DiMBlaQ" association="_TEfZgBYKEeacU8-DiMBlaQ">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_nE6NUBYqEeacU8-DiMBlaQ"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_nE7bcBYqEeacU8-DiMBlaQ" value="*"/>
+    </ownedEnd>
   </packagedElement>
   <packagedElement xmi:type="uml:Association" xmi:id="_ujSQ8BYKEeacU8-DiMBlaQ" memberEnd="_ujS4AhYKEeacU8-DiMBlaQ _ujS4AxYKEeacU8-DiMBlaQ">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ujS4ABYKEeacU8-DiMBlaQ" source="org.eclipse.papyrus">
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ujS4ARYKEeacU8-DiMBlaQ" key="nature" value="UML_Nature"/>
     </eAnnotations>
-    <ownedEnd xmi:type="uml:Property" xmi:id="_ujS4AxYKEeacU8-DiMBlaQ" name="material" type="_GPhg8BYEEeacU8-DiMBlaQ" association="_ujSQ8BYKEeacU8-DiMBlaQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_ujS4AxYKEeacU8-DiMBlaQ" name="material" type="_GPhg8BYEEeacU8-DiMBlaQ" association="_ujSQ8BYKEeacU8-DiMBlaQ">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_z2Y7wBYqEeacU8-DiMBlaQ"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_z2aw8BYqEeacU8-DiMBlaQ" value="*"/>
+    </ownedEnd>
   </packagedElement>
   <packagedElement xmi:type="uml:Association" xmi:id="_xRzFoBYKEeacU8-DiMBlaQ" memberEnd="_xR2I8BYKEeacU8-DiMBlaQ _xR3XEBYKEeacU8-DiMBlaQ">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_xRzssBYKEeacU8-DiMBlaQ" source="org.eclipse.papyrus">
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_xRzssRYKEeacU8-DiMBlaQ" key="nature" value="UML_Nature"/>
     </eAnnotations>
-    <ownedEnd xmi:type="uml:Property" xmi:id="_xR3XEBYKEeacU8-DiMBlaQ" name="stockeditem" type="_Ab2AMBYGEeacU8-DiMBlaQ" association="_xRzFoBYKEeacU8-DiMBlaQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_xR3XEBYKEeacU8-DiMBlaQ" name="stockeditem" type="_Ab2AMBYGEeacU8-DiMBlaQ" association="_xRzFoBYKEeacU8-DiMBlaQ">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_cRS5wBYqEeacU8-DiMBlaQ"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_cRVWABYqEeacU8-DiMBlaQ" value="*"/>
+    </ownedEnd>
   </packagedElement>
   <packagedElement xmi:type="uml:Association" xmi:id="_0ZIC8BYKEeacU8-DiMBlaQ" memberEnd="_0ZJREBYKEeacU8-DiMBlaQ _0ZJ4IBYKEeacU8-DiMBlaQ">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_0ZIqABYKEeacU8-DiMBlaQ" source="org.eclipse.papyrus">
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_0ZIqARYKEeacU8-DiMBlaQ" key="nature" value="UML_Nature"/>
     </eAnnotations>
-    <ownedEnd xmi:type="uml:Property" xmi:id="_0ZJ4IBYKEeacU8-DiMBlaQ" name="stockeditem" type="_Ab2AMBYGEeacU8-DiMBlaQ" association="_0ZIC8BYKEeacU8-DiMBlaQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_0ZJ4IBYKEeacU8-DiMBlaQ" name="stockeditem" type="_Ab2AMBYGEeacU8-DiMBlaQ" association="_0ZIC8BYKEeacU8-DiMBlaQ">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_YZOcABYqEeacU8-DiMBlaQ"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_YZSGYBYqEeacU8-DiMBlaQ" value="*"/>
+    </ownedEnd>
   </packagedElement>
   <packagedElement xmi:type="uml:Association" xmi:id="__yzQ8BYKEeacU8-DiMBlaQ" memberEnd="__yz4AhYKEeacU8-DiMBlaQ __y1GIBYKEeacU8-DiMBlaQ">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="__yz4ABYKEeacU8-DiMBlaQ" source="org.eclipse.papyrus">
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="__yz4ARYKEeacU8-DiMBlaQ" key="nature" value="UML_Nature"/>
     </eAnnotations>
-    <ownedEnd xmi:type="uml:Property" xmi:id="__y1GIBYKEeacU8-DiMBlaQ" name="product" type="_EeyjIBYEEeacU8-DiMBlaQ" association="__yzQ8BYKEeacU8-DiMBlaQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="__y1GIBYKEeacU8-DiMBlaQ" name="product" type="_EeyjIBYEEeacU8-DiMBlaQ" association="__yzQ8BYKEeacU8-DiMBlaQ">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_kgw1kBYqEeacU8-DiMBlaQ"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_kgzR0BYqEeacU8-DiMBlaQ" value="*"/>
+    </ownedEnd>
   </packagedElement>
   <packagedElement xmi:type="uml:Association" xmi:id="_ll-ooBYTEeacU8-DiMBlaQ" memberEnd="_ll_2wRYTEeacU8-DiMBlaQ _lmBE4BYTEeacU8-DiMBlaQ">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ll_PsBYTEeacU8-DiMBlaQ" source="org.eclipse.papyrus">
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ll_2wBYTEeacU8-DiMBlaQ" key="nature" value="UML_Nature"/>
     </eAnnotations>
-    <ownedEnd xmi:type="uml:Property" xmi:id="_lmBE4BYTEeacU8-DiMBlaQ" name="productmaterial" type="_ahZg4BYTEeacU8-DiMBlaQ" association="_ll-ooBYTEeacU8-DiMBlaQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_lmBE4BYTEeacU8-DiMBlaQ" name="productmaterial" type="_ahZg4BYTEeacU8-DiMBlaQ" association="_ll-ooBYTEeacU8-DiMBlaQ">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_f3MpcBYqEeacU8-DiMBlaQ"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_f3PswBYqEeacU8-DiMBlaQ" value="*"/>
+    </ownedEnd>
   </packagedElement>
   <packagedElement xmi:type="uml:Association" xmi:id="_mjLQsBYTEeacU8-DiMBlaQ" memberEnd="_mjL3whYTEeacU8-DiMBlaQ _mjMe0BYTEeacU8-DiMBlaQ">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_mjL3wBYTEeacU8-DiMBlaQ" source="org.eclipse.papyrus">
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_mjL3wRYTEeacU8-DiMBlaQ" key="nature" value="UML_Nature"/>
     </eAnnotations>
-    <ownedEnd xmi:type="uml:Property" xmi:id="_mjMe0BYTEeacU8-DiMBlaQ" name="productmaterial" type="_ahZg4BYTEeacU8-DiMBlaQ" association="_mjLQsBYTEeacU8-DiMBlaQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_mjMe0BYTEeacU8-DiMBlaQ" name="productmaterial" type="_ahZg4BYTEeacU8-DiMBlaQ" association="_mjLQsBYTEeacU8-DiMBlaQ">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_hdLIwBYqEeacU8-DiMBlaQ"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_hdNlABYqEeacU8-DiMBlaQ" value="*"/>
+    </ownedEnd>
   </packagedElement>
   <packagedElement xmi:type="uml:Association" xmi:id="_XexA4BYUEeacU8-DiMBlaQ" memberEnd="_XexA4xYUEeacU8-DiMBlaQ _Xexn8BYUEeacU8-DiMBlaQ">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_XexA4RYUEeacU8-DiMBlaQ" source="org.eclipse.papyrus">
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_XexA4hYUEeacU8-DiMBlaQ" key="nature" value="UML_Nature"/>
     </eAnnotations>
-    <ownedEnd xmi:type="uml:Property" xmi:id="_Xexn8BYUEeacU8-DiMBlaQ" name="userstock" type="_OLxLgBYUEeacU8-DiMBlaQ" association="_XexA4BYUEeacU8-DiMBlaQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Xexn8BYUEeacU8-DiMBlaQ" name="userstock" type="_OLxLgBYUEeacU8-DiMBlaQ" association="_XexA4BYUEeacU8-DiMBlaQ">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_46MewBYoEeacU8-DiMBlaQ"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_46O7ABYoEeacU8-DiMBlaQ" value="*"/>
+    </ownedEnd>
   </packagedElement>
   <packagedElement xmi:type="uml:Association" xmi:id="_YX_u8BYUEeacU8-DiMBlaQ" memberEnd="_YX_u8xYUEeacU8-DiMBlaQ _YYAWABYUEeacU8-DiMBlaQ">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_YX_u8RYUEeacU8-DiMBlaQ" source="org.eclipse.papyrus">
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_YX_u8hYUEeacU8-DiMBlaQ" key="nature" value="UML_Nature"/>
     </eAnnotations>
-    <ownedEnd xmi:type="uml:Property" xmi:id="_YYAWABYUEeacU8-DiMBlaQ" name="userstock" type="_OLxLgBYUEeacU8-DiMBlaQ" association="_YX_u8BYUEeacU8-DiMBlaQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_YYAWABYUEeacU8-DiMBlaQ" name="userStock" type="_OLxLgBYUEeacU8-DiMBlaQ" association="_YX_u8BYUEeacU8-DiMBlaQ">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_3VkDQBYoEeacU8-DiMBlaQ"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_3VmfgBYoEeacU8-DiMBlaQ" value="*"/>
+    </ownedEnd>
   </packagedElement>
 </uml:Model>
