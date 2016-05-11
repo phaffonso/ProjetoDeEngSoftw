@@ -1,0 +1,64 @@
+Segue abaixo algumas tabelas e seus campos:
+
+---------------------------------------------
+FORNECEDOR
+  Nome
+  Telefone
+  Celular
+  CNPJ
+  IE
+  Endereço
+  Bairro
+  Cidade
+  Estado
+  CEP
+  Email
+  Observações
+---------------------------------------------
+CLIENTE
+  Nome
+  Pessoa física ou jurídica
+  Data Nascimento(se pessoa física)
+  Sexo (se pessoa física)
+  Telefone
+  Celular
+  RG (se pessoa física)
+  CPF RG (se pessoa física)
+  CNPJ
+  IE
+  Endereço
+  Bairro
+  Cidade
+  Estado
+  CEP
+  Email
+  Observações
+---------------------------------------------
+UNIDADE
+  id
+  descrição (ex: kg, metro, peça...)
+---------------------------------------------
+MATÉRIA PRIMA
+  Descrição
+  Unidade
+  Grupo
+  Subgrupo
+  Cores*
+---------------------------------------------
+PRODUTO
+  Descrição
+  Grupo
+  Subgrupo
+  Matéria-prima**
+  Cores**
+  Tamanhos**
+---------------------------------------------
+ORDEM DE PRODUÇÃO
+  Data
+  Produtos**
+  Quantidade de cada produto
+---------------------------------------------
+
+
+*Muitos para muitos (tabela associativa)
+
